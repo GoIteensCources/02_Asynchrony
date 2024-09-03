@@ -39,3 +39,4 @@ async def loop_factorial():
 if __name__ == "__main__":
     run_sync()
     asyncio.run(loop_factorial())
+

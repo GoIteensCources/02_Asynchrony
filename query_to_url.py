@@ -30,7 +30,6 @@ def main():
 
 # ========== ASYNC ============================================
 
-
 async def get_async_wiki_page(url):
     async with httpx.AsyncClient() as aclient:
         response = await aclient.get(url)
